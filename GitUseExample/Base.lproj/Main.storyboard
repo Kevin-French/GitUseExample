@@ -24,10 +24,22 @@
                                     <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I6y-ae-cIX"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My new label in a new branch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bVg-Ne-FkU">
+                                <rect key="frame" x="75" y="120" width="225" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="225" id="6DK-bi-5Df"/>
+                                    <constraint firstAttribute="height" constant="21" id="uQB-XH-CXB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="bVg-Ne-FkU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6yf-GJ-RRO"/>
                             <constraint firstItem="Euz-fD-i80" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Seh-rT-H1c"/>
+                            <constraint firstItem="bVg-Ne-FkU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="TTF-P0-TZp"/>
                             <constraint firstItem="Euz-fD-i80" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YUJ-RI-6yr"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -35,6 +47,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
     </scenes>
 </document>
